@@ -39,7 +39,7 @@
   "author": "Julian Pawlowski <julian.pawlowski@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "hugo-bin": "^0.48.1",
+    "hugo-bin": "^0.119.0",
     "netlify-lambda": "^1.6.3",
     "rimraf": "^3.0.0"
   },
