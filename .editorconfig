@@ -22,8 +22,8 @@ indent_style = space
 indent_size = 4
 trim_trailing_whitespace = true
 
-# CSV, Markdown, TOML, and Text files
-[*.{csv,md,toml,txt}]
+# CSV, TOML, and Text files
+[*.{csv,toml,txt}]
 trim_trailing_whitespace = true
 
 # JSON and XML files

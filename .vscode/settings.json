@@ -2,10 +2,14 @@
     "[markdown]": {
         "editor.fontSize": 14,
         "editor.lineHeight": 26,
-        "editor.wordWrap": "wordWrapColumn",
-        "editor.wordWrapColumn": 64,
         "editor.lineNumbers": "off",
         "editor.quickSuggestions": false,
         "editor.minimap.enabled": false
-    }
+    },
+    "cSpell.language": "en,de",
+    "cSpell.words": [
+        "Paehlstr",
+        "Pawlowski"
+    ],
+    "frontMatter.dashboard.openOnStart": true
 }

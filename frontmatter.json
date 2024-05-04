@@ -49,11 +49,58 @@
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.preview.host": "http://localhost:1313",
-  "frontMatter.content.pageFolders": [
+  "frontMatter.content.i18n": [
     {
-      "title": "content",
-      "path": "[[workspace]]/content"
+      "title": "English",
+      "locale": "en",
+      "path": "en"
+    },
+    {
+      "title": "German",
+      "locale": "de",
+      "path": "de"
     }
   ],
-  "frontMatter.git.enabled": true
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Pages",
+      "path": "[[workspace]]/content/en",
+      "excludeSubdir": true,
+      "filePrefix": "",
+      "defaultLocale": "en",
+      "locales": [
+        {
+          "title": "English",
+          "locale": "en",
+          "path": "."
+        },
+        {
+          "title": "German",
+          "locale": "de",
+          "path": "../de"
+        }
+      ]
+    },
+    {
+      "title": "Blog posts",
+      "path": "[[workspace]]/content/en/posts",
+      "excludeSubdir": true,
+      "filePrefix": "",
+      "defaultLocale": "en",
+      "locales": [
+        {
+          "title": "English",
+          "locale": "en",
+          "path": "."
+        },
+        {
+          "title": "German",
+          "locale": "de",
+          "path": "../../de/posts"
+        }
+      ]
+    }
+  ],
+  "frontMatter.git.enabled": true,
+  "frontMatter.website.host": "https://julian.pawlowski.me"
 }
