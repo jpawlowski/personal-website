@@ -1,12 +1,8 @@
 ---
-title: Impressum
-slug: impressum
-description: ""
+translationKey: 'legal'
+title: 'Impressum'
 date: 2024-05-04T13:58:06.058Z
-preview: ""
 draft: false
-tags: []
-categories: []
 type: default
 ---
 

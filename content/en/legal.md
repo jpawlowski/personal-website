@@ -1,12 +1,8 @@
 ---
-title: "Legal Notice"
-slug: legal
-description: ""
+translationKey: 'legal'
+title: 'Legal Notice'
 date: 2024-05-04T13:58:06.058Z
-preview: ""
 draft: false
-tags: []
-categories: []
 type: default
 ---
 

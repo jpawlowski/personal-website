@@ -32,72 +32,56 @@ defaultContentLanguageInSubdir = true
   [languages.en]
     contentDir = 'content/en'
     weight = 1
-    title = "Julian Pawlowski"
     languageCode = "en-US"
     languageName = "English"
+
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        weight = 1
+        identifier = 'posts'
+        name = 'Posts'
+        url = '/posts/'
+        title = 'Blog posts'
+      [[languages.en.menus.main]]
+        weight = 2
+        identifier = 'tags'
+        name = 'Tags'
+        url = '/tags/'
+      [[languages.en.menus.main]]
+        weight = 3
+        identifier = 'categories'
+        name = 'Categories'
+        url = '/categories/'
 
     [languages.en.params.footer]
       custom = '<a rel="privacy noopener noreffer" href="/en/privacy/">Data Privacy Policy</a> | <a rel="legal noopener noreffer" href="/en/legal/">Legal Notice</a>'
 
-    [[languages.en.menu.main]]
-      weight = 1
-      identifier = "posts"
-      pre = ""
-      post = ""
-      name = "Posts"
-      url = "/posts/"
-      title = "Blog posts"
-    [[languages.en.menu.main]]
-      weight = 2
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "Tags"
-      url = "/tags/"
-      title = ""
-    [[languages.en.menu.main]]
-      weight = 3
-      identifier = "categories"
-      pre = ""
-      post = ""
-      name = "Categories"
-      url = "/categories/"
-      title = ""
-
   [languages.de]
     contentDir = 'content/de'
     weight = 2
-    title = "Julian Pawlowski"
     languageCode = "de-DE"
     languageName = "Deutsch"
 
+    [languages.de.menus]
+      [[languages.de.menus.main]]
+        weight = 1
+        identifier = 'posts'
+        name = 'Beiträge'
+        url = '/posts/'
+        title = 'Blog Beiträge'
+      [[languages.de.menus.main]]
+        weight = 2
+        identifier = 'tags'
+        name = 'Tags'
+        url = '/tags/'
+      [[languages.de.menus.main]]
+        weight = 3
+        identifier = 'categories'
+        name = 'Kategorien'
+        url = '/categories/'
+
     [languages.de.params.footer]
       custom = '<a rel="privacy noopener noreffer" href="/de/datenschutz/">Datenschutz</a> | <a rel="legal noopener noreffer" href="/de/impressum/">Impressum</a>'
-
-    [[languages.de.menu.main]]
-      weight = 1
-      identifier = "posts"
-      pre = ""
-      post = ""
-      name = "Beiträge"
-      url = "/posts/"
-      title = "Blog Beiträge"
-    [[languages.de.menu.main]]
-      weight = 2
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "Tags"
-      url = "/tags/"
-      title = ""
-    [[languages.de.menu.main]]
-      weight = 3
-      identifier = "categories"
-      name = "Kategorien"
-      pre = ""
-      post = ""
-      url = "/categories/"
-      title = ""
 
 # Author config
 [author]
