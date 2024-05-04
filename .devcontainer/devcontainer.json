@@ -1,39 +1,64 @@
 {
   "name": "julian.pawlowski.me",
-
   "build": {
     "dockerfile": "Dockerfile"
   },
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": "true",
+			"username": "vscode",
+			"upgradePackages": "true",
+			"nonFreePackages": "true"
+		},
+		"ghcr.io/flexwie/devcontainer-features/op:1": {}
+	},
 
-  // 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
-  // "features": { "ghcr.io/devcontainers/features/docker-in-docker:2": {} },
+  "postCreateCommand": "git submodule update --init --recursive; pnpm install-completion zsh",
 
-  // 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
-  // "forwardPorts": [],
-
-  // Configure tool-specific properties.
-  "customizations": {
-    // Configure properties specific to VS Code.
-    "vscode": {
-      // Set *default* container specific settings.json values on container create.
-      "settings": {
+  	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": { 
         "html.format.templating": true
-      },
-      // Add the IDs of extensions you want installed when the container is created.
-      "extensions": [
+			},
+
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+        // Container development related extensions
+        "ms-vscode-remote.remote-containers",
+        "github.codespaces",
+
+        // Code Editing related extensions
+        "editorconfig.editorconfig",
+
+        // Git related extensions
+        "eamodio.gitlens",
+
+        // GitHub related extensions
+        "ms-vscode.vscode-github-issue-notebooks",
+        "github.vscode-pull-request-github",
+
+        // Markdown related extensions
+        "davidanson.vscode-markdownlint",
+        "yzhang.markdown-all-in-one",
+
+        // Hugo related extensions
         "eliostruyf.vscode-front-matter",
         "rusnasonov.vscode-hugo",
         "budparr.language-hugo-vscode",
         "eliostruyf.vscode-hugo-themer",
         "kaellarkin.hugo-shortcode-syntax",
-        "davidanson.vscode-markdownlint",
         "streetsidesoftware.code-spell-checker",
         "tamasfe.even-better-toml"
       ]
-    }
-  },
+		}
+	}
 
-  "remoteUser": "vscode",
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
 
-  "postCreateCommand": "git submodule update --init --recursive; pnpm install-completion zsh"
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
 }
