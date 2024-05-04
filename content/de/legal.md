@@ -1,6 +1,7 @@
 ---
-translationKey: 'legal'
-title: 'Impressum'
+translationKey: legal
+slug: impressum
+title: Impressum
 date: 2024-05-04T13:58:06.058Z
 draft: false
 type: default

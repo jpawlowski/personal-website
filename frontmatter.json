@@ -12,6 +12,11 @@
           "type": "string"
         },
         {
+          "title": "Slug",
+          "name": "slug",
+          "type": "string"
+        },
+        {
           "title": "Title",
           "name": "title",
           "type": "string"
@@ -48,6 +53,11 @@
         {
           "title": "Translation key",
           "name": "translationKey",
+          "type": "string"
+        },
+        {
+          "title": "Slug",
+          "name": "slug",
           "type": "string"
         },
         {

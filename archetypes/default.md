@@ -1,8 +1,0 @@
-+++
-translationKey = '{{ replace .File.ContentBaseName "-" " " | title }}'
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-description = ''
-date = {{ .Date }}
-preview = ''
-draft = true
-+++

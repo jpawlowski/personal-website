@@ -1,6 +1,7 @@
 ---
-translationKey: 'legal'
-title: 'Legal Notice'
+translationKey: legal
+slug: ''
+title: Legal Notice
 date: 2024-05-04T13:58:06.058Z
 draft: false
 type: default
