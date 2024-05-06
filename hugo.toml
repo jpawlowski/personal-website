@@ -81,7 +81,7 @@ defaultContentLanguageInSubdir = true
         url = '/categories/'
 
     [languages.de.params.footer]
-      custom = '<a rel="legal noopener noreffer" href="/de/datenschutz/">Datenschutzerklärung</a> | <a rel="legal noopener noreffer" href="/de/impressum/">Impressum</a>'
+      custom = '<a rel="legal noopener noreffer" href="/de/datenschutz/">Datenschutz</a> | <a rel="legal noopener noreffer" href="/de/impressum/">Impressum</a>'
 
 # Author config
 [author]
