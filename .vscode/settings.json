@@ -3,13 +3,16 @@
         "editor.fontSize": 14,
         "editor.lineHeight": 26,
         "editor.lineNumbers": "off",
-        "editor.quickSuggestions": false,
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
         "editor.minimap.enabled": false
     },
     "cSpell.language": "en,de",
     "cSpell.words": [
         "Paehlstr",
         "Pawlowski"
-    ],
-    "frontMatter.dashboard.openOnStart": true
+    ]
 }

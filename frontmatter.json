@@ -167,5 +167,6 @@
     }
   ],
   "frontMatter.git.enabled": true,
-  "frontMatter.website.host": "https://julian.pawlowski.me"
+  "frontMatter.website.host": "https://julian.pawlowski.me",
+  "frontMatter.dashboard.openOnStart": true
 }
