@@ -4,7 +4,6 @@
     {
       "name": "default",
       "pageBundle": false,
-      "previewPath": null,
       "fields": [
         {
           "title": "Translation key",
@@ -34,11 +33,6 @@
           "isPublishDate": true
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
           "title": "Is in draft",
           "name": "draft",
           "type": "draft"
@@ -48,7 +42,6 @@
     {
       "name": "posts",
       "pageBundle": true,
-      "previewPath": null,
       "fields": [
         {
           "title": "Translation key",
@@ -63,6 +56,11 @@
         {
           "title": "Title",
           "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Subtitle",
+          "name": "subtitle",
           "type": "string"
         },
         {
@@ -85,9 +83,10 @@
           "isModifiedDate": true
         },
         {
-          "title": "Content preview",
+          "title": "Frontmatter Content preview",
           "name": "preview",
-          "type": "image"
+          "type": "image",
+          "default": "featured-image.jpg"
         },
         {
           "title": "Is in draft",
@@ -103,13 +102,30 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "Table of contents",
+          "name": "toc",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "title": "Enable comments",
+          "name": "comment",
+          "type": "boolean",
+          "default": "true"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
         }
       ]
     }
   ],
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
-  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.preview.host": "http://localhost:1314",
   "frontMatter.content.i18n": [
     {
       "title": "English",
@@ -169,5 +185,17 @@
   "frontMatter.git.enabled": true,
   "frontMatter.website.host": "https://julian.pawlowski.me",
   "frontMatter.dashboard.openOnStart": true,
-  "frontMatter.framework.startCommand": "hugo server --disableFastRender -D"
+  "frontMatter.framework.startCommand": "hugo server --disableFastRender -D",
+  "frontMatter.content.snippets": {
+    "About the author": {
+      "description": "About Julian Pawlowski",
+      "body": "About the author text ....",
+      "fields": []
+    },
+    "Über den Autor": {
+      "description": "about",
+      "body": "Über den Autor",
+      "fields": []
+    }
+  }
 }

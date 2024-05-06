@@ -2,9 +2,11 @@
 translationKey: legal
 slug: impressum
 title: Impressum
+description : 'Impressum für https://julian.pawlowski.me'
 date: 2024-05-04T13:58:06.058Z
 draft: false
 type: default
+hiddenFromSearch: true
 ---
 
 Julian Pawlowski  

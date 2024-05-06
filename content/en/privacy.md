@@ -1,12 +1,11 @@
 ---
 translationKey: privacy
-slug: ""
 title: Privacy Policy
-description: ""
+description : 'Privacy policy for https://julian.pawlowski.me'
 date: 2024-05-06T10:57:29.259Z
-preview: ""
 draft: false
 type: default
+hiddenFromSearch: true
 ---
 
 ## 1\. An overview of data protection

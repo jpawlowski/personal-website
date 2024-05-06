@@ -2,11 +2,11 @@
 translationKey: privacy
 slug: datenschutz
 title: Datenschutzerklärung
-description: ""
+description : 'Datenschutzerklärung für https://julian.pawlowski.me'
 date: 2024-05-06T10:57:29.259Z
-preview: ""
 draft: false
 type: default
+hiddenFromSearch: true
 ---
 
 ## 1\. Datenschutz auf einen Blick
