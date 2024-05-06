@@ -54,7 +54,7 @@ defaultContentLanguageInSubdir = true
         url = '/categories/'
 
     [languages.en.params.footer]
-      custom = '<a rel="privacy noopener noreffer" href="/en/privacy/">Privacy Policy</a> | <a rel="legal noopener noreffer" href="/en/privacy/">Legal Notice</a>'
+      custom = '<a rel="privacy noopener noreffer" href="/en/privacy/">Privacy Policy</a> | <a rel="legal noopener noreffer" href="/en/legal/">Legal Notice</a>'
 
   [languages.de]
     contentDir = 'content/de'
