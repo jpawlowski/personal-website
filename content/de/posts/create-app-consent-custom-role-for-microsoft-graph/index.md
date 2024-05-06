@@ -215,7 +215,7 @@ $customAdmin = New-MgRoleManagementDirectoryRoleDefinition @params
 #endregion
 ````
 
-Das Verhalten basiert auf dem, was die Rollen [Cloud-Anwendungsadministrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#cloud-application-administrator) oder [Anwendungsadministrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#application-administrator) zulassen, wobei jedoch Microsoft Graph zusammen mit einer schwarzen Liste von Berechtigungen hinzugefügt wird, die wir nicht wünschen.
+Das Verhalten basiert auf dem, was die Rollen [Cloud-Anwendungsadministrator](https://learn.microsoft.com/de-de/entra/identity/role-based-access-control/permissions-reference#cloud-application-administrator) oder [Anwendungsadministrator](https://learn.microsoft.com/de-de/entra/identity/role-based-access-control/permissions-reference#application-administrator) zulassen, wobei jedoch Microsoft Graph zusammen mit einer schwarzen Liste von Berechtigungen hinzugefügt wird, die wir nicht wünschen.
 
 Die Liste der ausgeschlossenen Anwendungsrollen kann je nach Anforderung geändert werden. Sie enthält im Wesentlichen App-Rollen, die Schreibberechtigungen mit potenziellem Schaden oder unkontrolliertem Informationsabfluss erteilen.
 
