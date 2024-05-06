@@ -1,6 +1,6 @@
 ---
 translationKey: create-app-consent-custom-role-for-microsoft-graph
-slug: ""
+slug: benutzerdefinierte-app-zustimmung-fur-microsoft-graph-erstellen
 title: Benutzerdefinierte App-Zustimmung für Microsoft Graph erstellen
 subtitle: So lässt sich die Admin-Zustimmung für Microsoft Graph API-Berechtigungen sicher delegieren
 description: Wie man eine benutzerdefinierte Rolle in Microsoft Entra implementiert, um die Admin-Zustimmung für Microsoft Graph API-Berechtigungen zu delegieren.
