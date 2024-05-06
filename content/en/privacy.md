@@ -5,7 +5,7 @@ title: Privacy Policy
 description: ""
 date: 2024-05-06T10:57:29.259Z
 preview: ""
-draft: true
+draft: false
 type: default
 ---
 
