@@ -168,5 +168,6 @@
   ],
   "frontMatter.git.enabled": true,
   "frontMatter.website.host": "https://julian.pawlowski.me",
-  "frontMatter.dashboard.openOnStart": true
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.framework.startCommand": "hugo server --disableFastRender -D"
 }
