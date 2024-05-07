@@ -28,7 +28,7 @@ toc: true
 
 ## Über die Zustimmung zu Anwendungen für Microsoft Graph
 
-Die [App-Zustimmung in Microsoft Entra (https://learn.microsoft.com/de-de/entra/identity-platform/application-consent-experience) ist ein entscheidender Bestandteil der Aufrechterhaltung von Sicherheit und Datenschutz in jeder Microsoft 365-Umgebung. Sie ermöglicht Anwendungen den Zugriff auf bestimmte Ressourcen, wie Benutzerdaten oder Gruppen, und stellt sicher, dass sie nur auf die Daten zugreifen können, die sie benötigen.
+Die [App-Zustimmung in Microsoft Entra](https://learn.microsoft.com/de-de/entra/identity-platform/application-consent-experience) ist ein entscheidender Bestandteil der Aufrechterhaltung von Sicherheit und Datenschutz in jeder Microsoft 365-Umgebung. Sie ermöglicht Anwendungen den Zugriff auf bestimmte Ressourcen, wie Benutzerdaten oder Gruppen, und stellt sicher, dass sie nur auf die Daten zugreifen können, die sie benötigen.
 
 Normalerweise sind die Rollen [Cloudanwendungsadministrator](https://learn.microsoft.com/de-de/entra/identity/role-based-access-control/permissions-reference#cloud-application-administrator) oder [Anwendungsadministrator](https://learn.microsoft.com/de-de/entra/identity/role-based-access-control/permissions-reference#application-administrator) für die Verwaltung dieser App-Zustimmungsanfragen verantwortlich, da sie über die notwendigen Berechtigungen verfügen, um den Zugriff auf diese Ressourcen zu genehmigen oder zu verweigern.
 
