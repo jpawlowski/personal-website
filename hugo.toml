@@ -448,9 +448,9 @@ defaultContentLanguageInSubdir = true
         clientSecret = ""
       # Valine comment config
       [params.page.comment.valine]
-        enable = true
-        appId = "fKZ8Es3p9AfTaezV5QlV2wbV-MdYXbMMI"
-        appKey = "IrRaqvtAebCcTQPJx9g7HMMf"
+        enable = false
+        appId = ""
+        appKey = ""
         placeholder = "Leave a comment!"
         avatar = "mp"
         meta= "nich,mail,link"
@@ -501,11 +501,11 @@ defaultContentLanguageInSubdir = true
       # giscus comment config (https://giscus.app/)
       [params.page.comment.giscus]
         # You can refer to the official documentation of giscus to use the following configuration.
-        enable = false
-        repo = ""
-        repoId = ""
-        category = "Announcements"
-        categoryId = ""
+        enable = true
+        repo = "jpawlowski/personal-website.discussions"
+        repoId = "797198599"
+        category = "Blog Discussion"
+        categoryId = "blog-discussion"
         # automatically adapt the current theme i18n configuration when empty
         lang = ""
         mapping = "pathname"
@@ -533,8 +533,8 @@ defaultContentLanguageInSubdir = true
       images = []
       # Publisher info
       [params.page.seo.publisher]
-        name = ""
-        logoUrl = ""
+        name = "Julian Pawlowski"
+        logoUrl = "https://julian.pawlowski.me/images/logo.svg"
 
   # LoveIt NEW | 0.2.5 TypeIt config
   [params.typeit]
