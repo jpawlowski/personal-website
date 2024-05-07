@@ -503,9 +503,9 @@ defaultContentLanguageInSubdir = true
         # You can refer to the official documentation of giscus to use the following configuration.
         enable = true
         repo = "jpawlowski/personal-website.discussions"
-        repoId = "797198599"
-        category = "Blog Discussion"
-        categoryId = "blog-discussion"
+        repoId = "R_kgDOL4RJBw"
+        category = "Blog Comments"
+        categoryId = "DIC_kwDOL4RJB84CfMg9"
         # automatically adapt the current theme i18n configuration when empty
         lang = ""
         mapping = "pathname"
