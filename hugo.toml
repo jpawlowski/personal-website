@@ -431,7 +431,7 @@ defaultContentLanguageInSubdir = true
       Mix = false
     # LoveIt CHANGED | 0.2.0 Comment config
     [params.page.comment]
-      enable = false
+      enable = true
       # Disqus comment config
       [params.page.comment.disqus]
         # LoveIt NEW | 0.1.1
@@ -448,12 +448,12 @@ defaultContentLanguageInSubdir = true
         clientSecret = ""
       # Valine comment config
       [params.page.comment.valine]
-        enable = false
-        appId = ""
-        appKey = ""
-        placeholder = ""
+        enable = true
+        appId = "fKZ8Es3p9AfTaezV5QlV2wbV-MdYXbMMI"
+        appKey = "IrRaqvtAebCcTQPJx9g7HMMf"
+        placeholder = "Leave a comment!"
         avatar = "mp"
-        meta= ""
+        meta= "nich,mail,link"
         pageSize = 10
         # automatically adapt the current theme i18n configuration when empty
         lang = ""
@@ -467,7 +467,7 @@ defaultContentLanguageInSubdir = true
         # located in "themes/LoveIt/assets/lib/valine/emoji/" directory
         # you can store your own data files in the same path under your project:
         # "assets/lib/valine/emoji/"
-        emoji = ""
+        emoji = "apple.yml"
       # Facebook comment config
       [params.page.comment.facebook]
         enable = false
