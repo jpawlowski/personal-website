@@ -5,6 +5,7 @@ title: Benutzerdefinierte App-Zustimmung für Microsoft Graph erstellen
 subtitle: So lässt sich die Admin-Zustimmung für Microsoft Graph API-Berechtigungen sicher delegieren
 description: Wie man eine benutzerdefinierte Rolle in Microsoft Entra implementiert, um die Admin-Zustimmung für Microsoft Graph API-Berechtigungen zu delegieren.
 date: 2024-05-06T14:31:14.019Z
+comment: true
 draft: false
 type: posts
 lastmod: 2024-05-06T14:31:15.665Z

@@ -4,6 +4,7 @@ slug: impressum
 title: Impressum
 description : 'Impressum für https://julian.pawlowski.me'
 date: 2024-05-04T13:58:06.058Z
+comment: false
 draft: false
 type: default
 hiddenFromSearch: true

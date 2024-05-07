@@ -3,6 +3,7 @@ translationKey: privacy
 title: Privacy Policy
 description : 'Privacy policy for https://julian.pawlowski.me'
 date: 2024-05-06T10:57:29.259Z
+comment: false
 draft: false
 type: default
 hiddenFromSearch: true

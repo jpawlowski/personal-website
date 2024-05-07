@@ -3,6 +3,7 @@ translationKey: legal
 title: Legal Notice
 description : 'Legal notice for https://julian.pawlowski.me'
 date: 2024-05-04T13:58:06.058Z
+comment: false
 draft: false
 type: default
 hiddenFromSearch: true

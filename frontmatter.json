@@ -33,6 +33,12 @@
           "isPublishDate": true
         },
         {
+          "title": "Turn comments on",
+          "name": "comment",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
           "title": "Is in draft",
           "name": "draft",
           "type": "draft"
@@ -87,6 +93,12 @@
           "name": "preview",
           "type": "image",
           "default": "featured-image.jpg"
+        },
+        {
+          "title": "Turn comments on",
+          "name": "comment",
+          "type": "boolean",
+          "default": "false"
         },
         {
           "title": "Is in draft",
