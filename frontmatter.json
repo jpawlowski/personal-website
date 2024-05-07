@@ -33,15 +33,32 @@
           "isPublishDate": true
         },
         {
-          "title": "Turn comments on",
+          "title": "Comments",
           "name": "comment",
-          "type": "boolean",
-          "default": "false"
+          "type": "fields",
+          "fields": [
+            {
+              "title": "Enable",
+              "name": "enable",
+              "type": "boolean",
+              "default": "false"
+            }
+          ]
         },
         {
           "title": "Is in draft",
           "name": "draft",
           "type": "draft"
+        },
+        {
+          "title": "hiddenFromSearch",
+          "name": "hiddenFromSearch",
+          "type": "boolean"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
         }
       ]
     },
@@ -95,10 +112,16 @@
           "default": "featured-image.jpg"
         },
         {
-          "title": "Turn comments on",
+          "title": "Comments",
           "name": "comment",
-          "type": "boolean",
-          "default": "false"
+          "type": "fields",
+          "fields": [
+            {
+              "title": "Enable",
+              "name": "enable",
+              "type": "boolean"
+            }
+          ]
         },
         {
           "title": "Is in draft",

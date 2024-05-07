@@ -3,7 +3,8 @@ translationKey: about
 title: About me
 description: Short information about Julian Pawlowski
 date: 2024-05-06T13:19:25.251Z
-comment: false
+comment:
+    enable: false
 draft: false
 type: default
 ---
