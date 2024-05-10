@@ -80,9 +80,9 @@ Azure AD Graph permissions are explicitly excluded.
     This script creates a custom role in Microsoft Entra that grants the ability to consent for delegated permissions and application permissions, including most application permissions for Microsoft Graph, except for a few sensitive permissions. Azure AD Graph permissions are NOT included. Note that to approve Microsoft Graph application permissions, Microsoft Entra roles Cloud Application Administrator and Application Administrator MUST NOT be active as otherwise, their exclusion policy will take precedence.
 #>
 
-#Requires -Modules @{ ModuleName = 'Microsoft.Graph.Identity.SignIns'; RequiredVersion = '2.0.0' }
-#Requires -Modules @{ ModuleName = 'Microsoft.Graph.Identity.Governance'; RequiredVersion = '2.0.0' }
-#Requires -Modules @{ ModuleName = 'Microsoft.Graph.Applications'; RequiredVersion = '2.0.0' }
+#Requires -Modules @{ ModuleName = 'Microsoft.Graph.Identity.SignIns'; ModuleVersion = '2.0.0' }
+#Requires -Modules @{ ModuleName = 'Microsoft.Graph.Identity.Governance'; ModuleVersion = '2.0.0' }
+#Requires -Modules @{ ModuleName = 'Microsoft.Graph.Applications'; ModuleVersion = '2.0.0' }
 
 Connect-MgGraph -ContextScope Process -Scopes @(
     'Application.Read.All',
