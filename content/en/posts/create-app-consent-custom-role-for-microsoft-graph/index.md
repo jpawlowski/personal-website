@@ -52,19 +52,22 @@ Azure AD Graph permissions are explicitly excluded.
 
 ````powershell
 <#PSScriptInfo
-.VERSION 1.0.0
+.VERSION 1.0.1
 .GUID a17ec91c-0f75-42ab-b4ef-8766c1a25fca
 .AUTHOR Julian Pawlowski
-.COMPANYNAME Workoho GmbH
-.COPYRIGHT © 2024 Workoho GmbH
+.COMPANYNAME Julian Pawlowski
+.COPYRIGHT © 2024 Julian Pawlowski
 .TAGS
 .LICENSEURI
 .PROJECTURI https://gist.github.com/jpawlowski/ca1bde7e979f367e8007b056bc032b6e
 .ICONURI
-.EXTERNALMODULEDEPENDENCIES
+.EXTERNALMODULEDEPENDENCIES 'Microsoft.Graph.Identity.SignIns','Microsoft.Graph.Applications','Microsoft.Graph.Policy','Microsoft.Graph.ServicePrincipals','Microsoft.Graph.RoleManagement'
 .REQUIREDSCRIPTS
 .EXTERNALSCRIPTDEPENDENCIES
 .RELEASENOTES
+    Version 1.0.1 (2024-05-10)
+    - Add module dependencies.
+
     Version 1.0.0 (2024-05-03)
     - Initial release.
 #>
@@ -77,7 +80,18 @@ Azure AD Graph permissions are explicitly excluded.
     This script creates a custom role in Microsoft Entra that grants the ability to consent for delegated permissions and application permissions, including most application permissions for Microsoft Graph, except for a few sensitive permissions. Azure AD Graph permissions are NOT included. Note that to approve Microsoft Graph application permissions, Microsoft Entra roles Cloud Application Administrator and Application Administrator MUST NOT be active as otherwise, their exclusion policy will take precedence.
 #>
 
-Connect-MgGraph -Scopes Application.Read.All, DelegatedPermissionGrant.Read.All, RoleManagement.ReadWrite.Directory, Policy.ReadWrite.PermissionGrant -ContextScope Process
+#Requires -Modules @{ ModuleName = 'Microsoft.Graph.Identity.SignIns'; RequiredVersion = '2.0.0' }
+#Requires -Modules @{ ModuleName = 'Microsoft.Graph.Applications'; RequiredVersion = '2.0.0' }
+#Requires -Modules @{ ModuleName = 'Microsoft.Graph.Policy'; RequiredVersion = '2.0.0' }
+#Requires -Modules @{ ModuleName = 'Microsoft.Graph.ServicePrincipals'; RequiredVersion = '2.0.0' }
+#Requires -Modules @{ ModuleName = 'Microsoft.Graph.RoleManagement'; RequiredVersion = '2.0.0' }
+
+Connect-MgGraph -ContextScope Process -Scopes @(
+    'Application.Read.All',
+    'DelegatedPermissionGrant.Read.All',
+    'RoleManagement.ReadWrite.Directory',
+    'Policy.ReadWrite.PermissionGrant'
+)
 
 #region Create a new permission grant policy
 $PermissionGrantPolicy = New-MgPolicyPermissionGrantPolicy -Id 'custom-appconsent-admin' -Description 'Permissions consentable by Privileged Application Consent Administrators.' -DisplayName 'Custom App Consent Admin Policy' -ErrorAction Stop
