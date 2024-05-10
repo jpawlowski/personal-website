@@ -61,7 +61,7 @@ Azure AD Graph-Berechtigungen sind explizit ausgeschlossen.
 .LICENSEURI
 .PROJECTURI https://gist.github.com/jpawlowski/ca1bde7e979f367e8007b056bc032b6e
 .ICONURI
-.EXTERNALMODULEDEPENDENCIES 'Microsoft.Graph.Identity.SignIns','Microsoft.Graph.Applications','Microsoft.Graph.Policy','Microsoft.Graph.ServicePrincipals','Microsoft.Graph.RoleManagement'
+.EXTERNALMODULEDEPENDENCIES 'Microsoft.Graph.Identity.SignIns','Microsoft.Graph.Identity.Governance','Microsoft.Graph.Applications'
 .REQUIREDSCRIPTS
 .EXTERNALSCRIPTDEPENDENCIES
 .RELEASENOTES
@@ -81,10 +81,8 @@ Azure AD Graph-Berechtigungen sind explizit ausgeschlossen.
 #>
 
 #Requires -Modules @{ ModuleName = 'Microsoft.Graph.Identity.SignIns'; RequiredVersion = '2.0.0' }
+#Requires -Modules @{ ModuleName = 'Microsoft.Graph.Identity.Governance'; RequiredVersion = '2.0.0' }
 #Requires -Modules @{ ModuleName = 'Microsoft.Graph.Applications'; RequiredVersion = '2.0.0' }
-#Requires -Modules @{ ModuleName = 'Microsoft.Graph.Policy'; RequiredVersion = '2.0.0' }
-#Requires -Modules @{ ModuleName = 'Microsoft.Graph.ServicePrincipals'; RequiredVersion = '2.0.0' }
-#Requires -Modules @{ ModuleName = 'Microsoft.Graph.RoleManagement'; RequiredVersion = '2.0.0' }
 
 Connect-MgGraph -ContextScope Process -Scopes @(
     'Application.Read.All',
