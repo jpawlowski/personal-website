@@ -5,7 +5,7 @@ title: Create app consent custom role for Microsoft Graph
 subtitle: How to securely delegate admin consent for Microsoft Graph API permissions
 description: "How to implement a custom role in Microsoft Entra to delegate admin consent for Microsoft Graph API permissions."
 date: 2024-05-06T14:31:14.019Z
-lastmod: 2024-05-06T14:31:15.665Z
+lastmod: 2024-05-10T11:14:00.05Z
 preview: featured-image.jpg
 draft: false
 tags:
