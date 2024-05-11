@@ -548,7 +548,7 @@ defaultContentLanguage = "en"
 
   # Site verification code config for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = ""
+    google = "cgSdGn5D6qkkbABmfXkb7LgRcl"
     bing = ""
     yandex = ""
     pinterest = ""
