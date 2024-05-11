@@ -64,6 +64,7 @@ defaultContentLanguage = "en"
 
     [languages.en.params.footer]
       custom = '<a rel="privacy noopener noreffer" href="/privacy/">Privacy Policy</a> | <a rel="legal noopener noreffer" href="/legal/">Legal Notice</a>'
+      license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>'
 
   [languages.de]
     contentDir = 'content/de'
@@ -101,6 +102,7 @@ defaultContentLanguage = "en"
 
     [languages.de.params.footer]
       custom = '<a rel="legal noopener noreffer" href="/de/datenschutz/">Datenschutz</a> | <a rel="legal noopener noreffer" href="/de/impressum/">Impressum</a>'
+      license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank">CC BY-SA 4.0</a>'
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -164,7 +166,7 @@ defaultContentLanguage = "en"
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
-    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>'
+    license = ""
 
   # LoveIt NEW | 0.2.0 Section (all posts) page config
   [params.section]
