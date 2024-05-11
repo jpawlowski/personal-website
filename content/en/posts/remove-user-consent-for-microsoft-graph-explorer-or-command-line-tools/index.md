@@ -16,7 +16,7 @@ tags:
 categories:
   - Microsoft 365
   - Microsoft Entra
-  - Cyber Security
+  - Cybersecurity
   - Scripting
 resources:
   - name: featured-image

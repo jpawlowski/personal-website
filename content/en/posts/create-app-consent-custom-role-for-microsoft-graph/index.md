@@ -20,7 +20,7 @@ tags:
   - IAM
 categories:
   - Microsoft Entra
-  - Cyber Security
+  - Cybersecurity
   - Identity and Access Management
   - Role-Based Access Control
 resources:
