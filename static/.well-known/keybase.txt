@@ -1,0 +1,113 @@
+==================================================================
+https://keybase.io/loredo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://julian.pawlowski.me
+  * I am loredo (https://keybase.io/loredo) on keybase.
+  * I have a public key ASA-c63BANKICmiJtHrUlAfJ9m5zLyNS4UiNUJUq2xp3Ygo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01010c025106b36b18e95f674ebe6dca5cefae3ec593cb952f827af2e4e9fcf2e91c0a",
+      "host": "keybase.io",
+      "kid": "01203e73adc100d2880a6889b47ad49407c9f66e732f2352e1488d50952adb1a77620a",
+      "uid": "e9b7812d7aa965fb5d61d2c3c63a1200",
+      "username": "loredo"
+    },
+    "merkle_root": {
+      "ctime": 1565140244,
+      "hash": "23f81fbb99aaf6a2925c7626705c9cf230ffdacb2c082c82be3bce02ed9793596e7dd093ed481bc08a8d7c8f423158737eea559268f39e8904fea1a8b348bcf9",
+      "hash_meta": "915eac15800ada0de389b24eb87c87ef5efd105907404430e0fa1735d7661328",
+      "seqno": 5958098
+    },
+    "service": {
+      "entropy": "L5UmK/Z0pMrSyc1T3gVEMOcv",
+      "hostname": "julian.pawlowski.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1565140265,
+  "expire_in": 504576000,
+  "prev": "a66a6c46de445ec672cf6b46084e105f0e5d1a65e368ceb8726fc721ded15481",
+  "seqno": 45,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgPnOtwQDSiApoibR61JQHyfZucy8jUuFIjVCVKtsad2IKp3BheWxvYWTESpcCLcQgpmpsRt5EXsZyz2tGCE4QXw5dGmXjaM64cm/HId7RVIHEIEIrvrOaguyqyQA2trJboWWmb86ZrND90oj2sbkvZhwoAgHCo3NpZ8RAEuHy+ZofRs+2W/WwJWQ7yqMOS2yVH3b4HL8//2pe+Jel4EW00kXOjgWVVPuq0NlSj1m8JhvYoHu8Jbhmj0NYAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILrrqiwE+yjxH64HWzs45DgDewBKobdIjSx0m4RsUnbso3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/loredo
+
+==================================================================
+
+==================================================================
+https://keybase.io/loredo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://loredo.me
+  * I am loredo (https://keybase.io/loredo) on keybase.
+  * I have a public key ASA-c63BANKICmiJtHrUlAfJ9m5zLyNS4UiNUJUq2xp3Ygo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01010c025106b36b18e95f674ebe6dca5cefae3ec593cb952f827af2e4e9fcf2e91c0a",
+      "host": "keybase.io",
+      "kid": "01203e73adc100d2880a6889b47ad49407c9f66e732f2352e1488d50952adb1a77620a",
+      "uid": "e9b7812d7aa965fb5d61d2c3c63a1200",
+      "username": "loredo"
+    },
+    "merkle_root": {
+      "ctime": 1565140482,
+      "hash": "817dfe042ac8b3fd54111d88d7e5f9ccf608c7f043553443a192c450436b036fd9242f10c3d0e7b95ed2537783a1ca72d60a23c3b8532b8870144ead87794e35",
+      "hash_meta": "e7bec5f92fd6487ba271c91806697cf5228ddc87a3b37931644fd19282085025",
+      "seqno": 5958122
+    },
+    "service": {
+      "entropy": "xM45MTV2saxMDbTeeorlI+MT",
+      "hostname": "loredo.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1565140512,
+  "expire_in": 504576000,
+  "prev": "6fb8a6d9e680297aa63d05c046ef0849dd0b33a10afc9cda22c6884f27ad9697",
+  "seqno": 46,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgPnOtwQDSiApoibR61JQHyfZucy8jUuFIjVCVKtsad2IKp3BheWxvYWTESpcCLsQgb7im2eaAKXqmPQXARu8ISd0LM6EK/JzaIsaITyetlpfEINrwkaRifuw5n9W9Z+mul66UWHeQC+42T1KTnQC76VEdAgHCo3NpZ8RAqBB+aQJE0VW78IGQxBSC2r0lNYN9Wc8y1D6zJK0WfmOCMpfoFTwMpcLNQS5Af+bt7KOOY2AQEkiMIiHX7lu0A6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPtus7Ro5w/1OJUUYxwwWxqsiY/6d2q+m57QK3mtv5Vyo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/loredo
+
+==================================================================
