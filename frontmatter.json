@@ -215,16 +215,5 @@
   "frontMatter.website.host": "https://julian.pawlowski.me",
   "frontMatter.dashboard.openOnStart": true,
   "frontMatter.framework.startCommand": "hugo server --disableFastRender -D",
-  "frontMatter.content.snippets": {
-    "About the author": {
-      "description": "About Julian Pawlowski",
-      "body": "About the author text ....",
-      "fields": []
-    },
-    "Über den Autor": {
-      "description": "about",
-      "body": "Über den Autor",
-      "fields": []
-    }
-  }
+  "frontMatter.content.snippets": {}
 }
