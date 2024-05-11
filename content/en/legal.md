@@ -37,3 +37,5 @@ We are not willing or obliged to participate in dispute resolution proceedings i
 This website is powered by the [LoveIt theme](https://hugoloveit.com/) for [Hugo](https://gohugo.io/) and is hosted on [GitHub Pages](https://pages.github.com/).
 
 Source code is maintained at [GitHub](https://github.com/jpawlowski/personal-website).
+
+Blog posts are written using [GitHub Codespaces](https://github.com/features/codespaces), which runs [Visual Studio Code](https://code.visualstudio.com/docs/remote/codespaces) in a prepared virtual container environment. Using the [Frontmatter](https://frontmatter.codes/) extension provides additional support for handling metadata and provides a CMS-like user experience. The entire editing and publishing process can be performed locally via a remote connection to the Codespace or directly in a browser window.

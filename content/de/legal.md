@@ -36,3 +36,5 @@ Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer 
 Diese Website wurde mit dem [LoveIt Motiv](https://hugoloveit.com/) für [Hugo](https://gohugo.io/) erstellt und wird auf [GitHub Pages](https://pages.github.com/) gehostet.
 
 Der Quellcode wird auf [GitHub](https://github.com/jpawlowski/personal-website) verwaltet.
+
+Das Schreiben von Blog-Beiträgen erfolgt mit [GitHub Codespaces](https://github.com/features/codespaces), das [Visual Studio Code](https://code.visualstudio.com/docs/remote/codespaces) in einer vorbereiteten virtuellen Containerumgebung ausführt. Die Verwendung der [Frontmatter](https://frontmatter.codes/)-Erweiterung bietet zusätzliche Unterstützung für den Umgang mit Metadaten und sorgt für eine CMS-ähnliche Benutzererfahrung. Der gesamte Bearbeitungs- und Veröffentlichungsprozess kann lokal über eine Remote-Verbindung zum Codespace oder direkt in einem Browserfenster durchgeführt werden.
