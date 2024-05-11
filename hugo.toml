@@ -26,7 +26,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
