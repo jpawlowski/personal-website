@@ -60,4 +60,6 @@ Required Graph scopes:
 
 Feel free to use this script to remove user consent, either all at once or selectively. You can even clean up all authorizations for all users at once, or just remove individual authorizations for all users.
 
+As always, the source code can be found as a Gist snippet on GitHub:
+
 {{< gist jpawlowski 7d4f2e76851349800e1cf86ff00ca43c >}}

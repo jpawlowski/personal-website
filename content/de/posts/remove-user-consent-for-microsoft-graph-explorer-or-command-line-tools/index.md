@@ -60,4 +60,6 @@ Erforderliche Graph Scopes:
 
 Du kannst dieses Skript verwenden, um die Benutzerberechtigung zu entfernen, entweder alle auf einmal oder selektiv. Es lassen sich sogar komplett alle Berechtigungen für alle Benutzer auf einmal aufräumen, oder auch nur einzelne Berechtigungen bei allen Benutzern entfernen.
 
+Wie immer findet sich der Quellcode auf GitHub als Gist Schnipsel:
+
 {{< gist jpawlowski 7d4f2e76851349800e1cf86ff00ca43c >}}

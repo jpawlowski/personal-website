@@ -57,6 +57,8 @@ This PowerShell script creates a custom role in Microsoft Entra that grants the 
 
 Azure AD Graph permissions are explicitly excluded.
 
+Naturally, the source code can be found as a Gist snippet on GitHub:
+
 {{< gist jpawlowski ca1bde7e979f367e8007b056bc032b6e >}}
 
 The behavior is based on what the [Cloud Application Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#cloud-application-administrator) or [Application Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#application-administrator) roles allow, but adding Microsoft Graph together with a blacklist of permissions we don't want.

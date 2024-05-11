@@ -57,6 +57,8 @@ Dieses PowerShell-Skript erstellt eine benutzerdefinierte Rolle in Microsoft Ent
 
 Azure AD Graph-Berechtigungen sind explizit ausgeschlossen.
 
+Der Quellcode findet sich natürlich auf GitHub als Gist Schnipsel:
+
 {{< gist jpawlowski ca1bde7e979f367e8007b056bc032b6e >}}
 
 Das Verhalten basiert auf dem, was die Rollen [Cloud-Anwendungsadministrator](https://learn.microsoft.com/de-de/entra/identity/role-based-access-control/permissions-reference#cloud-application-administrator) oder [Anwendungsadministrator](https://learn.microsoft.com/de-de/entra/identity/role-based-access-control/permissions-reference#application-administrator) zulassen, wobei jedoch Microsoft Graph zusammen mit einer schwarzen Liste von Berechtigungen hinzugefügt wird, die wir nicht wünschen.
