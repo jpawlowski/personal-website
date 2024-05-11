@@ -1,7 +1,7 @@
 ---
 translationKey: remove-user-consent-for-microsoft-graph-explorer-or-command-line-tools
-slug: benutzererlaubnis-fur-Graph-explorer-oder-command-line-tools-entfernen
-title: Benutzererlaubnis für Graph Explorer oder Command Line Tools entfernen
+slug: benutzererlaubnis-fur-graph-explorer-oder-powershell-kommandozeilen-tools-entfernen
+title: Graph Explorer / PowerShell Benutzererlaubnis entfernen
 subtitle: Microsoft Graph-Berechtigungen, die ein Benutzer erteilt hat, werden nicht berücksichtigt
 description: Erfahre, wie du mit einem praktischen PowerShell-Skript die Benutzerzustimmung für Microsoft Graph API-Zugriffsrechte verwalten kannst.
 date: 2024-05-11T08:07:00.323Z
@@ -30,7 +30,7 @@ type: posts
 
 ## Die Zustimmung des Benutzers für den Zugriff auf Microsoft Graph API verstehen
 
-Microsoft bietet mehrere Möglichkeiten zur Interaktion mit der Microsoft Graph API, wie in der [SDK-Übersicht](https://learn.microsoft.com/de-de/graph/sdks/sdks-overview) beschrieben. Während viele dieser Methoden für Softwareentwickler gedacht sind, interagieren Administratoren häufig mit der API über die [Microsoft Graph Command Line Tools](https://learn.microsoft.com/de-de/powershell/microsoftgraph/overview) für die Skripterstellung oder den [Graph Explorer](https://developer.microsoft.com/de-de/graph/graph-explorer) zum Erlernen und Untersuchen der API.
+Microsoft bietet mehrere Möglichkeiten zur Interaktion mit der Microsoft Graph API, wie in der [SDK-Übersicht](https://learn.microsoft.com/de-de/graph/sdks/sdks-overview) beschrieben. Während viele dieser Methoden für Softwareentwickler gedacht sind, interagieren Administratoren häufig mit der API über die [Microsoft Graph Kommandozeilen-Tools](https://learn.microsoft.com/de-de/powershell/microsoftgraph/overview) für die Skripterstellung oder den [Graph Explorer](https://developer.microsoft.com/de-de/graph/graph-explorer) zum Erlernen und Untersuchen der API.
 
 Diese Tools verwenden eine Methode, die als [Vom Benutzer delegierte Autorisierung](https://learn.microsoft.com/de-de/graph/security-authorization) bekannt ist und bei der eine von Microsoft bereitgestellte Cloud-Anwendung als Vermittler zwischen dem Benutzerkonto und der Microsoft Graph-API fungiert. Bei dieser Methode muss der Benutzer der Anwendung die Berechtigung erteilen, in seinem Namen zu handeln, unabhängig von den ihm zugewiesenen Rollenberechtigungen in Microsoft Entra.
 
@@ -40,7 +40,7 @@ Derzeit unterstützen die Microsoft Entra- oder Microsoft Azure-Portale nicht de
 
 Der Graph Explorer bietet einige Möglichkeiten, die Zustimmung zu widerrufen, aber dies erfordert zusätzliche Berechtigungen (`Directory.Read.All` und `DelegatedPermissionGrant.ReadWrite.All`), die möglicherweise nicht für alle Benutzer verfügbar sind.
 
-Zur Verwaltung der Benutzerzustimmungen für die Microsoft Graph Command Line Tools und den Graph Explorer muss die Microsoft Graph API selbst verwendet werden.
+Zur Verwaltung der Benutzerzustimmungen für die Microsoft Graph Kommandozeilen-Tools und den Graph Explorer muss die Microsoft Graph API selbst verwendet werden.
 
 ## Skript zum Entfernen von Microsoft Graph-Berechtigungen aus der Benutzerzustimmung
 

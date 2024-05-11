@@ -1,6 +1,30 @@
 {
   "language": "de",
   "enabledLanguageIds": [
-      "markdown"
+    "markdown"
+  ],
+  "ignoreRegExpList": [
+    "^---\\s*\\n(?!title:|subtitle:|description:)[\\s\\S]*?---", // Ignore frontmatter except title, subtitle, and description
+    "```[^`]*```", // Ignore code blocks
+    "{{[^}]*}}", // Ignore Hugo commands
+    "https?://[\\w.-]+(?:[\\w.-/])*", // Ignore URLs
+    "[\\w.-/]+\\.[\\w]+", // Ignore file paths
+    "[\\w.-]+@[\\w.-]+", // Ignore email addresses
+    "#?[0-9a-fA-F]{6}" // Ignore hexadecimal values
+  ],
+  "words": [
+    "Cloudanwendungsadministrator",
+    "Delegated",
+    "Dienstprinzipal",
+    "Entra",
+    "Erstanbieteranwendungen",
+    "gist",
+    "jpawlowski",
+    "Scopes",
+    "Skripterstellung",
+    "Supportorganisation",
+    "Zustimmungs",
+    "Zustimmungsanfragen",
+    "Zustimmungsrichtlinien"
   ]
 }
