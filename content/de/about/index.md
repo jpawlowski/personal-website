@@ -20,6 +20,14 @@ Als technischer Architekt berate ich seit den Anfängen von [Azure Information P
 
 Seit vielen Jahren bin ich ein aktiver Teil der Entwickler Gemeinschaft für diverse Open Source Projekte, insbesondere aus dem Bereich der Hausautomatisierungs.
 
+##### Microsoft 365 Zertifizierungen
+
+{{< figure src="microsoft-certified-expert-badge.svg" title="Administrator Expert" link="https://learn.microsoft.com/api/credentials/share/de-de/jpawlowski/49CF196BABDD26B7?sharingId=AA9DA0A53DE90F21" target="_blank" class="microsoft-certification-badge" >}}
+
+{{< figure src="microsoft-certified-associate-badge.svg" title="Security Administrator Associate" link="https://learn.microsoft.com/api/credentials/share/de-de/jpawlowski/6A013F342F593966?sharingId=AA9DA0A53DE90F21" target="_blank" class="microsoft-certification-badge" >}}
+
+{{< figure src="microsoft-certified-associate-badge.svg" title="Teams Administrator Associate" link="https://learn.microsoft.com/api/credentials/share/de-de/jpawlowski/E95A5AF15A22DCB1?sharingId=AA9DA0A53DE90F21" target="_blank" class="microsoft-certification-badge" >}}
+
 ##### Interessen
 
 - Kulturwandel durch die Digitalisierung

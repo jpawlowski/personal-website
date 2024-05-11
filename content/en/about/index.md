@@ -19,6 +19,14 @@ As a technical architect, I provide consultancy to implement, deploy and maintai
 
 Since a few years, I am an active part of the development community of multiple open source projects, in particular in the area of Home Automation systems.
 
+##### Microsoft 365 Certifications
+
+{{< figure src="microsoft-certified-expert-badge.svg" title="Administrator Expert" link="https://learn.microsoft.com/api/credentials/share/en-us/jpawlowski/49CF196BABDD26B7?sharingId=AA9DA0A53DE90F21" target="_blank" class="microsoft-certification-badge" >}}
+
+{{< figure src="microsoft-certified-associate-badge.svg" title="Security Administrator Associate" link="https://learn.microsoft.com/api/credentials/share/en-us/jpawlowski/6A013F342F593966?sharingId=AA9DA0A53DE90F21" target="_blank" class="microsoft-certification-badge" >}}
+
+{{< figure src="microsoft-certified-associate-badge.svg" title="Teams Administrator Associate" link="https://learn.microsoft.com/api/credentials/share/en-us/jpawlowski/E95A5AF15A22DCB1?sharingId=AA9DA0A53DE90F21" target="_blank" class="microsoft-certification-badge" >}}
+
 ##### Interests
 
 - Cultural change due to digitization

@@ -2,3 +2,12 @@
 // Custom style
 // 自定义样式
 // ==============================
+
+figure.microsoft-certification-badge {
+    display: inline-block;
+}
+
+figure.microsoft-certification-badge a img {
+    width: 110px !important;
+    height: auto !important;
+}
