@@ -41,7 +41,7 @@
               "title": "Enable",
               "name": "enable",
               "type": "boolean",
-              "default": "false"
+              "default": false
             }
           ]
         },
@@ -142,13 +142,13 @@
           "title": "Table of contents",
           "name": "toc",
           "type": "boolean",
-          "default": "false"
+          "default": false
         },
         {
           "title": "Enable comments",
           "name": "comment",
           "type": "boolean",
-          "default": "true"
+          "default": true
         },
         {
           "title": "type",
