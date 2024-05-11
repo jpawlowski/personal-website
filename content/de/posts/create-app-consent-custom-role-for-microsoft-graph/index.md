@@ -7,7 +7,6 @@ description: Wie man eine benutzerdefinierte Rolle in Microsoft Entra implementi
 date: 2024-05-06T14:31:14.019Z
 lastmod: 2024-05-10T11:14:00.0Z
 preview: featured-image.jpg
-comment: true
 draft: false
 tags:
   - Microsoft Graph API

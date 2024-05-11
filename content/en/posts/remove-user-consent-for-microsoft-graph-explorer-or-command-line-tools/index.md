@@ -7,7 +7,6 @@ description: Erfahre, wie du mit einem praktischen PowerShell-Skript die Benutze
 date: 2024-05-11T08:07:00.323Z
 lastmod: 2024-05-11T08:07:00.323Z
 preview: featured-image.jpg
-comment: true
 draft: false
 tags:
   - Microsoft Graph API

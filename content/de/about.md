@@ -7,12 +7,7 @@ date: 2024-05-06T13:19:25.251Z
 comment:
     enable: false
 draft: false
-type: default
----
-
-**Julian Pawlowski**  
-*Innovation & Technology Coach*
-
+layout: about
 ---
 
 Ich bezeichne mich selbst als einen visionären Innovations- und Technologieevangelisten.

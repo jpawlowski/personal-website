@@ -145,12 +145,6 @@
           "default": false
         },
         {
-          "title": "Enable comments",
-          "name": "comment",
-          "type": "boolean",
-          "default": true
-        },
-        {
           "title": "type",
           "name": "type",
           "type": "string"
@@ -160,7 +154,7 @@
   ],
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
-  "frontMatter.preview.host": "http://localhost:1314",
+  "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.i18n": [
     {
       "title": "English",

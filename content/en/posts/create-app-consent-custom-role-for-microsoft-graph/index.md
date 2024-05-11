@@ -7,7 +7,6 @@ description: How to implement a custom role in Microsoft Entra to delegate admin
 date: 2024-05-06T14:31:14.019Z
 lastmod: 2024-05-10T11:14:00.05Z
 preview: featured-image.jpg
-comment: true
 draft: false
 tags:
   - Microsoft Graph API
