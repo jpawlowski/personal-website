@@ -12,13 +12,18 @@ draft: false
 tags:
   - Microsoft Graph API
   - PowerShell
-  - User Consent
-  - Authorization
+  - Benutzer-Zustimmung
+  - Autorisierung
 categories:
   - Microsoft 365
   - Microsoft Entra
-  - Cyber Security
-  - Scripting
+  - Cybersicherheit
+  - Skripterstellung
+resources:
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image-preview.jpg
 toc: true
 type: posts
 ---

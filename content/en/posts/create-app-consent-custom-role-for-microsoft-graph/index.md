@@ -7,21 +7,28 @@ description: How to implement a custom role in Microsoft Entra to delegate admin
 date: 2024-05-06T14:31:14.019Z
 lastmod: 2024-05-10T11:14:00.05Z
 preview: featured-image.jpg
+comment: true
 draft: false
 tags:
-    - Admin Consent
-    - Development
-    - IAM
-    - RBAC
-    - Security
+  - Microsoft Graph API
+  - Admin Consent
+  - Custom Role
+  - Least Privilege
+  - Security
+  - PowerShell
+  - Azure AD
+  - RBAC
+  - IAM
 categories:
-    - Microsoft Entra
-    - Cyber Security
+  - Microsoft Entra
+  - Cyber Security
+  - Identity and Access Management
+  - Role-Based Access Control
 resources:
-    - name: featured-image
-      src: featured-image.jpg
-    - name: featured-image-preview
-      src: featured-image-preview.jpg
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image-preview.jpg
 toc: true
 type: posts
 ---

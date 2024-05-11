@@ -10,15 +10,20 @@ preview: featured-image.jpg
 comment: true
 draft: false
 tags:
-    - Microsoft Graph API
-    - PowerShell
-    - User Consent
-    - Authorization
+  - Microsoft Graph API
+  - PowerShell
+  - User Consent
+  - Authorization
 categories:
-    - Microsoft 365
-    - Microsoft Entra
-    - Cyber Security
-    - Scripting
+  - Microsoft 365
+  - Microsoft Entra
+  - Cyber Security
+  - Scripting
+resources:
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image-preview.jpg
 toc: true
 type: posts
 ---

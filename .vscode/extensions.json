@@ -1,0 +1,20 @@
+{
+    "recommendations": [
+      "ms-vscode-remote.remote-containers",
+      "github.codespaces",
+      "editorconfig.editorconfig",
+      "eamodio.gitlens",
+      "ms-vscode.vscode-github-issue-notebooks",
+      "github.vscode-pull-request-github",
+      "davidanson.vscode-markdownlint",
+      "yzhang.markdown-all-in-one",
+      "eliostruyf.vscode-front-matter",
+      "rusnasonov.vscode-hugo",
+      "budparr.language-hugo-vscode",
+      "eliostruyf.vscode-hugo-themer",
+      "kaellarkin.hugo-shortcode-syntax",
+      "streetsidesoftware.code-spell-checker",
+      "streetsidesoftware.code-spell-checker-german",
+      "tamasfe.even-better-toml"
+  ]
+}
