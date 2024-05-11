@@ -2,7 +2,7 @@
 translationKey: remove-user-consent-for-microsoft-graph-explorer-or-command-line-tools
 slug: benutzererlaubnis-fur-graph-explorer-oder-powershell-kommandozeilen-tools-entfernen
 title: Graph Explorer / PowerShell Benutzererlaubnis entfernen
-subtitle: Microsoft Graph-Berechtigungen, die ein Benutzer erteilt hat, werden nicht berücksichtigt
+subtitle: Microsoft Graph-Berechtigungen, die ein Benutzer erteilt hat, wieder entfernen
 description: Erfahre, wie du mit einem praktischen PowerShell-Skript die Benutzerzustimmung für Microsoft Graph API-Zugriffsrechte verwalten kannst.
 date: 2024-05-11T08:07:00.323Z
 lastmod: 2024-05-11T08:07:00.323Z
